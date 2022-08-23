@@ -4,7 +4,7 @@
 
 const somaNumeros = (num1, num2) => {
     let resultado = num1+num2
-    return (`A soma dos números ${num1} e ${num2} é: ${resultado}`)
+    return (`${num1} + ${num2} = ${resultado}`)
 }
 
 
@@ -12,21 +12,21 @@ const somaNumeros = (num1, num2) => {
 
 const subtraiNumeros = (num1, num2) => {
     let resultado = num1-num2
-    return (`A subtração dos números ${num1} e ${num2} é: ${resultado}`)
+    return (`${num1} - ${num2} = ${resultado}`)
 }
 
 // função de multiplicação
 
 const multiplicaNumeros = (num1, num2) => {
     let resultado = num1*num2
-    return (`A multiplicação dos números ${num1} e ${num2} é: ${resultado}`) 
+    return (`${num1} x ${num2} = ${resultado}`) 
 }
 
 // função de divisão
 
 const divideNumeros = (num1, num2) => {
     let resultado = num1/num2
-    return (`A divisão dos números ${num1} e ${num2} é: ${resultado}`)
+    return (`${num1} / ${num2} = ${resultado}`)
 }
 
 let num1 = Number(prompt("Informe o primeiro número."))
