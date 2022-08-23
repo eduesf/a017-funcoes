@@ -13,7 +13,7 @@
 // function tabuadaDoSeis (num1) {
 //     console.log (`Essa é a tabuada do ${num1}!`)
 //     for (let i=1; i<11; i++){
-//         result = num1*i
+//        let result = num1*i
 //         console.log(`${num1} x ${i} = ${result}`)
 //     }
 // }   
